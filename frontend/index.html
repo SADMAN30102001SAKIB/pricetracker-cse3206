@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real-Time Price Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>📊 Real-Time Product Price Tracker</h1>
+      <p class="subtitle">Observer Pattern + Factory Pattern Demo</p>
+
+      <div class="status">
+        <span id="connection-status">🔴 Disconnected</span>
+        <span id="update-count">Updates: 0</span>
+      </div>
+
+      <div id="current-prices" class="products-grid"></div>
+
+      <div class="alerts-container">
+        <h2>🚨 Recent Alerts</h2>
+        <div id="alerts"></div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
